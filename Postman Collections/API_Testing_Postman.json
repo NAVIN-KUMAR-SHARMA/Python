@@ -597,5 +597,41 @@
 			],
 			"id": "b954ed1d-030d-4a31-b47b-d8cffd91ad55"
 		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "3304e46e-75c0-49f5-8537-f0e128f9b496",
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "c26894d3-10a1-4a84-8789-c585fc2e1548",
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "firstnamelocal",
+			"value": "local",
+			"type": "string"
+		},
+		{
+			"key": "lastnamelocal",
+			"value": "variable",
+			"type": "string"
+		}
 	]
 }

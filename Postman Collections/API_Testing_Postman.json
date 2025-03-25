@@ -97,7 +97,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"firstname\": \"{{fname}}\",\r\n    \"lastname\": \"{{lname}}\",\r\n    \"totalprice\": 111,\r\n    \"depositpaid\": true,\r\n    \"bookingdates\": {\r\n        \"checkin\": \"2018-01-01\",\r\n        \"checkout\": \"2019-01-01\"\r\n    },\r\n    \"additionalneeds\": \"super bowls\"\r\n}",
+							"raw": "{\r\n    \"firstname\": \"{{firstnameenv}}\",\r\n    \"lastname\": \"{{lastnameenv}}\",\r\n    \"totalprice\": 111,\r\n    \"depositpaid\": true,\r\n    \"bookingdates\": {\r\n        \"checkin\": \"2018-01-01\",\r\n        \"checkout\": \"2019-01-01\"\r\n    },\r\n    \"additionalneeds\": \"super bowls\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
